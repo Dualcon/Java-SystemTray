@@ -1,14 +1,3 @@
-# SystemTray
-# How to Use the System Tray.
-
-
-The system tray is a specialized area of the desktop where users can access currently running programs. This area may be referred to differently on various operating systems. On Microsoft Windows, the system tray is referred to as the Taskbar Status Area, while on the GNU Network Object Model Environment (GNOME) Desktop it is referred to as the Notification Area. On K Desktop Environment (KDE) this area is referred to as the System Tray. However, on each system the tray area is shared by all applications running on the desktop.
-More information can be found on [https://docs.oracle.com/](https://docs.oracle.com/javase/tutorial/uiswing/misc/systemtray.html).
-
-
-## SystemTrayManager.java
-
-
 package com.wikidreams.systemtray;
 
 import java.awt.AWTException;
@@ -80,20 +69,3 @@ public class SystemTrayManager {
 	}
 
 }
-
-
-## App.java
-
-
-package com.wikidreams.systemtray;
-
-public class 	 App {
-
-	public static void main(String[] args) {
-		SystemTrayManager.CreateSystemTrayManager();		
-	}
-
-}
-
-
-Produced by [Wiki Dreams.github.io](https://WikiDreams.github.io/).
